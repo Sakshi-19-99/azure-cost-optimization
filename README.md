@@ -24,23 +24,6 @@
 3. No API changes: 
     • The same endpoint is used to fetch both active and archived record
 
-**Folder Structure**
-azure-cost-optimization-serverless/
- ├── architecture/
- │   └── architecture-diagram.png
- ├── functions/
- │   ├── archiveBillingRecords/
- │   │   ├── __init__.py
- │   │   └── function.json
- │   ├── readBillingRecord/
- │   │   ├── __init__.py
- │   │   └── function.json
- ├── terraform/
- │   └── main.tf
- ├── scripts/
- │   └── test_data_loader.py
- └── README.md
-
 **Edge Cases & Reliability**
   • Records not found in Cosmos DB are served from Blob
   • Logging can be added to track record access and migration status
@@ -49,6 +32,7 @@ azure-cost-optimization-serverless/
   • Records not found in Cosmos DB are served from Blob
 
 **Architecture Diagram**
+![image](https://github.com/user-attachments/assets/ec416d11-6dac-4f56-8c9d-249aaed984e8)
 
 **Advantages**
   • Completely serverless and scalable.
