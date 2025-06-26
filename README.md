@@ -1,3 +1,5 @@
+## Azure Serverless Cost Optimization: Billing Records Archival
+
 ## Overview
 This solution addresses the growing cost of storing billing records in Azure Cosmos DB by archiving records
 older than 90 days into Azure Blob Storage. It ensures cost optimization without changing the existing
