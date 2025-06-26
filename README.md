@@ -24,12 +24,13 @@
 3. No API changes: 
     • The same endpoint is used to fetch both active and archived record
 
-**Edge Cases & Reliability**
-  • Records not found in Cosmos DB are served from Blob
-  • Logging can be added to track record access and migration status
-  • Archival retry logic can be enhanced for production
-  • Monitoring can be added using Azure Monitor + Application Insights
-  • Records not found in Cosmos DB are served from Blob
+Edge Cases & Reliability 
+•	Records not found in Cosmos DB are served from Blob
+•	Logging can be added to track record access and migration status
+•	Archival retry logic can be enhanced for production
+•	Monitoring can be added using Azure Monitor + Application Insights
+•	Records not found in Cosmos DB are served from Blob
+
 
 **Architecture Diagram**
 
