@@ -37,9 +37,11 @@ APIs and keeps archived data accessible within a few seconds.
 
 ![image](https://github.com/user-attachments/assets/ec416d11-6dac-4f56-8c9d-249aaed984e8)
 
-**Advantages**
-  • Completely serverless and scalable.
-  • Cuts costs by archiving infrequently accessed data.
-  • No downtime or data loss.
-  • Integrates with current APIs seamlessly.
+## Advantages
+
+- **Completely serverless and scalable**: Built using Azure Functions and native services to handle scale without manual provisioning.
+- **Cost-efficient**: Reduces Azure Cosmos DB storage costs by archiving infrequently accessed data to Blob Storage.
+- **No downtime or data loss**: Archival and retrieval processes run in the background with full data integrity.
+- **Seamless integration**: Works with existing APIs without requiring any contract changes or code modifications.
+
  
