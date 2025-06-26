@@ -32,6 +32,8 @@
   • Records not found in Cosmos DB are served from Blob
 
 **Architecture Diagram**
+
+
 ![image](https://github.com/user-attachments/assets/ec416d11-6dac-4f56-8c9d-249aaed984e8)
 
 **Advantages**
