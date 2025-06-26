@@ -21,7 +21,7 @@
     • Receives GET requests for records
     • Checks Cosmos DB first
     • If not found, falls back to Blob Storage
-3. No API changes:
+3. No API changes: 
     • The same endpoint is used to fetch both active and archived record
 
 **Folder Structure**
